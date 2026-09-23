@@ -121,9 +121,12 @@ Para incorporar los cambios de una rama a la rama principal, es necesario crear 
 1. Acceder a la pestaña **"Pull requests"** del repositorio.
 2. Hacer clic en **"New pull request"**.
 3. Seleccionar las ramas que se desean comparar y fusionar, y pulsar **"Create pull request"**.
+
+![Creación de un pull request](11.png)
+
 4. Tras revisar los cambios, hacer clic en **"Merge pull request"** para combinarlos con la rama principal.
 
-![Creación y fusión de un pull request](11.png)
+![Fusión de un pull request](12.png)
 
 ---
 
@@ -135,13 +138,13 @@ GitHub permite configurar distintos aspectos del repositorio, como su visibilida
 
 Desde el botón **"Settings"**, situado en la parte superior del repositorio, se puede modificar el nombre, la descripción, la visibilidad y otros ajustes generales.
 
-![Panel de configuración del repositorio](12.png)
+![Panel de configuración del repositorio](13.png)
 
 ### 5.2 Permisos y colaboradores
 
 En la sección **"Collaborators"** es posible añadir a otras personas para que trabajen en el repositorio, otorgándoles permisos de acceso según sea necesario.
 
-![Gestión de colaboradores del repositorio](13.png)
+![Gestión de colaboradores del repositorio](14.png)
 
 ---
 
@@ -160,13 +163,6 @@ En la sección **"Collaborators"** es posible añadir a otras personas para que 
 
 ## Conclusiones
 
-GitHub permite realizar todas las operaciones básicas de Git —subir archivos, hacer commits, crear y gestionar ramas, fusionarlas y colaborar con otras personas— de forma completamente gráfica, sin necesidad de recurrir a la terminal. Esto convierte a la plataforma en una herramienta muy accesible, tanto para quienes ya dominan Git desde la línea de comandos como para quienes se están iniciando en el control de versiones.
+GitHub permite realizar todas las operaciones básicas de Git: subir archivos, hacer commits, crear y gestionar ramas, fusionarlas y colaborar con otras personas de forma completamente gráfica, sin necesidad de recurrir a la terminal. Esto convierte a la plataforma en una herramienta muy accesible, tanto para quienes ya dominan Git desde la línea de comandos como para quienes se están iniciando en el control de versiones.
 
 Además, GitHub facilita el trabajo colaborativo gracias a funciones como los pull requests y la gestión de permisos, lo que permite que varias personas trabajen sobre un mismo proyecto de manera ordenada y segura, garantizando en todo momento la trazabilidad de los cambios realizados.
-
----
-
-## Bibliografía
-
-- GitHub Docs. *GitHub Documentation*. Disponible en: [https://docs.github.com](https://docs.github.com)
-- GitHub. *GitHub — Where the world builds software*. Disponible en: [https://github.com](https://github.com)
