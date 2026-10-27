@@ -1,0 +1,57 @@
+# ============================================================
+# .gitignore - Proyecto Java (Maven) pruebaVehiculo
+# Cada bloque está justificado en SECURITY.md
+# ============================================================
+
+# --- 1. Secretos y claves (NUNCA se suben) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+secrets/
+credentials.*
+
+# --- 2. Configuración local (propia de cada equipo) ---
+application-local.*
+config.local.*
+local.properties
+
+# --- 3. Compilación y binarios (se regeneran con Maven) ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# --- 4. Ficheros temporales y logs ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# --- 5. IDE y editores (preferencias personales) ---
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/private/
+bin/
+out/
+
+# --- 6. Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- 7. Copias de seguridad locales (ver SECURITY.md) ---
+backups/
+*.bundle
